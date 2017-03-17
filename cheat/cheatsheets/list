@@ -1,12 +1,3 @@
-Python's cheatsheets forked from [https://github.com/chrisallenlane/cheat](https://github.com/chrisallenlane/cheat)
-
-# 用法：
-
-```
-cheat list
-```
-
-```
 list() -> new empty list
 
 创建一个空列表。
@@ -54,4 +45,3 @@ arr.reverse()
 # 查找列表中值为指定值的数量
 arr.count(1)
 1
-```
