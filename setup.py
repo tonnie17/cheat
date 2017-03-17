@@ -18,7 +18,7 @@ setup(
         'cheat.test',
     ],
     package_data = {
-        'cheat.cheatsheets': [f for f in os.listdir('cheat/cheatsheets') if '.' not in f]
+        'cheat.cheatsheets': [f for f in os.listdir('cheat/cheatsheets')]
     },
     scripts          = ['bin/cheat'],
     install_requires = [

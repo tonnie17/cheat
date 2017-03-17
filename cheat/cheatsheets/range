@@ -1,0 +1,21 @@
+range
+
+range(stop) -> range object
+
+生成从0开始到但不包括stop的整数列表。
+
+range(start, stop[, step]) -> range object
+
+生成从start开始到但不包括stop的整数列表， step指定跳跃的步长。
+
+
+for i in range(5):
+    print(i, end=' ')
+
+0 1 2 3 4
+
+
+for i in range(1, 5, 2):
+    print(i, end=' ')
+
+1 3
